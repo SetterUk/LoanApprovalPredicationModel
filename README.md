@@ -16,12 +16,9 @@ I used XGBoost to predict loan approval based on applicant information such as i
 
 ## My Files
 
-- `loan_prediction_model.py`: This was my script for data preprocessing, model training, and evaluation.
-- `loan_dashboard.py`: This was my Streamlit dashboard for model visualization and interaction.
-- `check_dataset.py`: This was a utility script I used to examine the dataset structure.
-- `loan_prediction_model.pkl`: This was my saved trained model.
-- `model_data.pkl`: This was my saved data for dashboard visualization.
-- `feature_importance.png`: This was a visualization of my feature importance.
+- `model.py`: This was my script for data preprocessing, model training, and evaluation.
+- `dashboard.py`: This was my Streamlit dashboard for model visualization and interaction.
+
 
 ## My Dataset
 
@@ -61,12 +58,12 @@ The most important features for loan approval prediction in my model were:
 
 2. Train the model:
    ```
-   python loan_prediction_model.py
+   python model.py
    ```
 
 3. Run the dashboard:
    ```
-   streamlit run loan_dashboard.py
+   streamlit run dashboard.py
    ```
 
 ## Dashboard Features
