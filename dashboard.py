@@ -125,4 +125,3 @@ elif page == "SHAP Analysis":
 
 
 st.markdown("---")
-st.markdown("Loan Prediction Model Dashboard - Created with Streamlit")
